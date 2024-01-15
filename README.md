@@ -48,6 +48,28 @@ const obfuscatedCode = obfuscator.obfuscate(code);
 
 console.log(obfuscatedCode);``
 
+Output Code:
+
+`function _922143f6(str) {
+  return eval(str);
+}
+var _2a9e011b = [];
+_2a9e011b = 5;
+const _fa5f821f = _2a9e011b;
+function _proxy__5fa24c6f() {
+  try {
+    _e3daba8c();
+  } catch (e) {}
+  return _original__5fa24c6f();
+}
+function _original__5fa24c6f() {
+  try {
+    _44ecd9f1();
+  } catch (e) {}
+  _922143f6([[99].map(c => String.fromCharCode(c)).join(""), [111].map(c => String.fromCharCode(c)).join(""), [110].map(c => String.fromCharCode(c)).join(""), [115].map(c => String.fromCharCode(c)).join(""), [111].map(c => String.fromCharCode(c)).join(""), [108].map(c => String.fromCharCode(c)).join(""), [101].map(c => String.fromCharCode(c)).join("")].join(""))[[108, 111, 103].map(c => String.fromCharCode(c)).join("")](_fa5f821f);
+}
+_original__5fa24c6f();`
+
 
 ## License
 
