@@ -34,19 +34,18 @@ These dependencies are specified in the `package.json` file.
 
 ## Example
 
-``const obfuscator = new JavascriptObfuscator();
+`const obfuscator = new JavascriptObfuscator();`
 
-const code = `
+`const code = ``
 const a = 5
     function test() {
         console.log(a)
     }
     test()
-`;
+``;`
 
-const obfuscatedCode = obfuscator.obfuscate(code);
-
-console.log(obfuscatedCode);``
+`const obfuscatedCode = obfuscator.obfuscate(code);`
+``
 
 Output Code:
 
