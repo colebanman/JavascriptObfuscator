@@ -67,6 +67,8 @@ function _original__5fa24c6f() {
 }
 _original__5fa24c6f();`
 
+Created by Cole Banman.
+
 
 ## License
 
