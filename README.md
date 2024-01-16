@@ -1,21 +1,19 @@
 # Javascript Obfuscator
 
-This project provides a Javascript Obfuscator, a tool that transforms Javascript code into an equivalent, harder to understand version. This is done by applying a series of transformations to the code that preserve its functionality while making it more difficult to reverse engineer.
+JS Obfuscator built with Babel. Does a series of transformations to make code much harder to read or reverse-engineer. 
+
+Feel free to make any changes as there's a lot more that can be done
 
 ## Features
 
 The obfuscator applies the following transformations:
 
-- Variable Name Obfuscation: The `obfuscateVariableNames` function renames variables to random strings, making the code harder to understand.
-- Control Flow Obfuscation: The `obfuscateControlFlow` function modifies the control flow of the program, making it harder to follow.
-- Function Call Hiding: The `hideFunctionCalls` function hides function calls in the code, making them harder to find and understand.
-- Proxy Function Creation: The `createProxyFunctions` function creates proxy functions that replace direct calls to functions, making the code harder to understand.
-- Dead Code Insertion: The `addDeadCodeBranches` function inserts dead code branches into the code, making it harder to understand and analyze.
-- String and Call Obfuscation: The `obfuscateStringsAndCalls` function obfuscates strings and function calls in the code, making them harder to understand.
-- Constant Variable Obfuscation: The `obfuscateConstantVariables` function obfuscates constant variables in the code, making them harder to understand.
-- Object Key Obfuscation: The `obfuscateObjectKeys` function obfuscates object keys in the code, making them harder to understand.
-- Eval Replacement: The `replaceEval` function replaces instances of `eval` in the code with a function call, making the code harder to understand.
-- Custom Eval Function Creation: The `createEvalFunction` function creates a custom eval function that is used to replace instances of `eval` in the code.
+- variable name obfuscation
+- function name obfuscation
+- control flow obfuscation
+- proxy functions
+- dead code
+- more
 
 ## Usage
 
