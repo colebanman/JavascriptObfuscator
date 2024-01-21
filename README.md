@@ -4,6 +4,8 @@ JS Obfuscator built with Babel. Does a series of transformations to make code mu
 
 Feel free to make any changes as there's a lot more that can be done
 
+Many Javascript features aren't supported by this as it wasn't widely tested -- add/remove things as needed
+
 ## Features
 
 The obfuscator applies the following transformations:
